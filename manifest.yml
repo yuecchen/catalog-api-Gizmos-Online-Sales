@@ -7,4 +7,10 @@ applications:
   memory: 128m
   instances: 1
   path: .
-
+  env:
+    MONITORING_SERVER_TYPE: BI
+    KNJ_ENABLE_TT: "true"
+    KNJ_SAMPLING: 1
+    APM_BM_GATEWAY_URL: http://169.44.167.140
+    APM_KEYFILE_PSWD: ccmR0cKs!
+    APM_KEYFILE_URL: http://jpython2.mybluemix.net/keyfile_140.p12
